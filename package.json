@@ -1,6 +1,6 @@
 {
   "name": "co-eachseries",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Each series with ES6 generator co.",
   "main": "index.js",
   "scripts": {
