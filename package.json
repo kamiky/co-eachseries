@@ -1,0 +1,21 @@
+{
+  "name": "co-eachseries",
+  "version": "1.0.0",
+  "description": "Each series with ES6 generator co.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "es6",
+    "generator",
+    "eachseries",
+    "co"
+  ],
+  "author": "kamiky",
+  "license": "ISC",
+  "devDependencies": {
+    "co": "^4.6.0",
+    "co-wait": "0.0.0"
+  }
+}
