@@ -11,7 +11,7 @@ This package allow you to loop asynchronously over an array or object, step by s
 ```
 const co = require('co')
 const wait = require('co-wait')
-const eachSeries = require('./index')
+const eachSeries = require('co-eachseries')
 
 co(function* () {
   const array = ['one', 'two', 'three']
