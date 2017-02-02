@@ -17,8 +17,9 @@ function *recursionForObject (obj, keys, i, next) {
 }
 
 module.exports = function *(param, next) {
-  if (Array.isArray(param) && param.length > 0) {
-    yield recursionForArray(param, 0, next)
+  if (Array.isArray(param)) {
+    if (param.length > 0) yield recursionForArray(param, 0, next)
+    else { return }
   } else if (param !== null && typeof param === 'object') {
     yield recursionForObject(param, Object.keys(param), 0, next)
   } else {
